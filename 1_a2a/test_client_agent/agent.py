@@ -11,7 +11,7 @@ get_time_agent = RemoteA2aAgent(
 )
 
 root_agent = Agent(
-    model='gemini-3-flash-preview',
+    model='gemini-2.5-pro',
     name='root_agent',
     description=
     "An agent that can get the current time in various cities using the get_time_agent.",
